@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 400" fill="none">
+  <defs>
+    <linearGradient id="popBody" x1=".1" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#4a4a52"/><stop offset="0.35" stop-color="#1d1d22"/><stop offset="0.7" stop-color="#0c0c0f"/><stop offset="1" stop-color="#050507"/></linearGradient>
+    <linearGradient id="popFrame" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f2f2f5"/><stop offset="0.04" stop-color="#9a9aa3"/><stop offset="0.12" stop-color="#3a3a40"/><stop offset="0.5" stop-color="#1a1a1e"/><stop offset="0.88" stop-color="#3d3d44"/><stop offset="0.96" stop-color="#a7a7b0"/><stop offset="1" stop-color="#5a5a62"/></linearGradient>
+    <linearGradient id="popFrameV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".25"/><stop offset=".15" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></linearGradient>
+    <linearGradient id="popIsl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2a30"/><stop offset="1" stop-color="#0e0e12"/></linearGradient>
+    <linearGradient id="popIslEdge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".5" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#000" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="popBez" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f6"/><stop offset=".35" stop-color="#7a7a82"/><stop offset=".6" stop-color="#2c2c32"/><stop offset="1" stop-color="#a9a9b2"/></linearGradient>
+    <linearGradient id="popBezIn" x1="1" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#d6d6dc"/><stop offset=".5" stop-color="#2a2a30"/><stop offset="1" stop-color="#8d8d96"/></linearGradient>
+    <radialGradient id="popGlass" cx=".38" cy=".32" r=".85"><stop offset="0" stop-color="#5a6bb8"/><stop offset=".35" stop-color="#1b1f4a"/><stop offset=".75" stop-color="#07081a"/><stop offset="1" stop-color="#020208"/></radialGradient>
+    <radialGradient id="popCore" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#6d4bd0"/><stop offset=".5" stop-color="#14103a"/><stop offset="1" stop-color="#000"/></radialGradient>
+    <linearGradient id="popIrid" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5fd2"/><stop offset=".5" stop-color="#6fa8ff"/><stop offset="1" stop-color="#5fffc8"/></linearGradient>
+    <linearGradient id="popSheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".22" stop-color="#fff" stop-opacity="0.34"/><stop offset=".34" stop-color="#fff" stop-opacity="0"/><stop offset=".62" stop-color="#fff" stop-opacity="0.09"/><stop offset=".72" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="popVig" cx=".5" cy=".4" r=".8"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></radialGradient>
+    <filter id="popBlur"><feGaussianBlur stdDeviation="1.6"/></filter>
+    <filter id="popNoise" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .55 0"/></filter>
+    <clipPath id="popClip"><rect x="25.5" y="13.5" width="169" height="373" rx="31"/></clipPath>
+    <filter id="popDrop" x="-30%" y="-10%" width="160%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity=".4"/></filter>
+  </defs>
+  <g filter="url(#popDrop)">
+  <rect x="17.5" y="92" width="5" height="26" rx="2" fill="#6c6c75"/><rect x="17.5" y="92" width="1.5" height="26" rx=".7" fill="#fff" opacity=".4"/>
+  <rect x="17.5" y="132" width="5" height="44" rx="2" fill="#6c6c75"/><rect x="17.5" y="132" width="1.5" height="44" rx=".7" fill="#fff" opacity=".4"/>
+  <rect x="197.5" y="118" width="5" height="60" rx="2" fill="#6c6c75"/><rect x="201" y="118" width="1.5" height="60" rx=".7" fill="#000" opacity=".3"/>
+  <rect x="22" y="10" width="176" height="380" rx="35" fill="url(#popFrame)"/>
+  <rect x="22" y="10" width="176" height="380" rx="35" fill="url(#popFrameV)"/>
+  <rect x="22.6" y="10.6" width="174.8" height="378.8" rx="34.4" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width=".8"/>
+  <rect x="22" y="78" width="4" height="2" fill="#000" opacity=".4"/><rect x="194" y="78" width="4" height="2" fill="#000" opacity=".4"/><rect x="22" y="326" width="4" height="2" fill="#000" opacity=".4"/><rect x="194" y="326" width="4" height="2" fill="#000" opacity=".4"/>
+  <rect x="25.5" y="13.5" width="169" height="373" rx="31" fill="url(#popBody)"/>
+  <g clip-path="url(#popClip)">
+    <rect x="25" y="13" width="170" height="374" filter="url(#popNoise)" opacity="0.10"/>
+    <rect x="25" y="13" width="170" height="374" fill="url(#popVig)"/>
+    <path d="M25 13 H195 V387 H25 Z" fill="url(#popSheen)"/>
+    <path d="M175 13 L195 13 L195 120 Z" fill="#fff" opacity=".05"/>
+  </g>
+  <rect x="25.5" y="13.5" width="169" height="373" rx="31" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  <rect x="32" y="27" width="70" height="126" rx="25" fill="#000" opacity=".35" filter="url(#popBlur)"/>
+  <rect x="33" y="24" width="68" height="124" rx="24" fill="url(#popIsl)"/>
+  <rect x="33" y="24" width="68" height="124" rx="24" fill="none" stroke="url(#popIslEdge)" stroke-width="1.4"/>
+  <rect x="36" y="27" width="62" height="118" rx="21" fill="none" stroke="#000" stroke-opacity=".25" stroke-width=".8"/>
+  
+  <g>
+    <circle cx="67" cy="62" r="26" fill="#000" opacity=".45" filter="url(#popBlur)"/>
+    <circle cx="67" cy="60" r="24.2" fill="url(#popBez)"/>
+    <circle cx="67" cy="60" r="22.4" fill="url(#popBezIn)"/>
+    <circle cx="67" cy="60" r="20.4" fill="#040406"/>
+    <circle cx="67" cy="60" r="17.6" fill="url(#popGlass)"/>
+    <circle cx="67" cy="60" r="13.9" fill="none" stroke="#9fb4ff" stroke-opacity=".22" stroke-width=".8"/>
+    <circle cx="67" cy="60" r="10.5" fill="#02020a" stroke="#c7a6ff" stroke-opacity=".25" stroke-width=".7"/>
+    <circle cx="67" cy="60" r="6.3" fill="url(#popCore)"/>
+    <path d="M54.0 66.3 A14.7 14.7 0 0 0 76.5 71.8" stroke="url(#popIrid)" stroke-width="3.4" fill="none" opacity=".55" stroke-linecap="round"/>
+    <ellipse cx="59.9" cy="51.6" rx="5.5" ry="2.5" fill="#fff" opacity=".85" transform="rotate(-38 59.9 51.6)"/>
+    <circle cx="75.0" cy="67.6" r="1.7" fill="#fff" opacity=".5"/>
+    <circle cx="67" cy="60" r="24.2" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width=".6"/>
+  </g>
+  <g>
+    <circle cx="67" cy="114" r="26" fill="#000" opacity=".45" filter="url(#popBlur)"/>
+    <circle cx="67" cy="112" r="24.2" fill="url(#popBez)"/>
+    <circle cx="67" cy="112" r="22.4" fill="url(#popBezIn)"/>
+    <circle cx="67" cy="112" r="20.4" fill="#040406"/>
+    <circle cx="67" cy="112" r="17.6" fill="url(#popGlass)"/>
+    <circle cx="67" cy="112" r="13.9" fill="none" stroke="#9fb4ff" stroke-opacity=".22" stroke-width=".8"/>
+    <circle cx="67" cy="112" r="10.5" fill="#02020a" stroke="#c7a6ff" stroke-opacity=".25" stroke-width=".7"/>
+    <circle cx="67" cy="112" r="6.3" fill="url(#popCore)"/>
+    <path d="M54.0 118.3 A14.7 14.7 0 0 0 76.5 123.8" stroke="url(#popIrid)" stroke-width="3.4" fill="none" opacity=".55" stroke-linecap="round"/>
+    <ellipse cx="59.9" cy="103.6" rx="5.5" ry="2.5" fill="#fff" opacity=".85" transform="rotate(-38 59.9 103.6)"/>
+    <circle cx="75.0" cy="119.6" r="1.7" fill="#fff" opacity=".5"/>
+    <circle cx="67" cy="112" r="24.2" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width=".6"/>
+  </g><circle cx="128" cy="44" r="7.7" fill="url(#popBez)"/><circle cx="128" cy="44" r="5.5" fill="#efe6c8"/><circle cx="126.6" cy="43.2" r="1.6" fill="#fff"/><circle cx="129.8" cy="45.2" r="1.4" fill="#d9b86a"/>
+  <text x="110" y="338" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-weight="600" fill="#a5a5b0" opacity=".9">Ozévo</text>
+  <text x="110" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="3.6" letter-spacing=".8" fill="#a5a5b0" opacity=".5">DESIGNED IN INDIA  ·  A DIFFERENT FREQUENCY</text>
+  </g>
+</svg>

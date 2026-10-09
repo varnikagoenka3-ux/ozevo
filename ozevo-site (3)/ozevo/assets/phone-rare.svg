@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 400" fill="none">
+  <defs>
+    <linearGradient id="rareBody" x1=".1" y1="0" x2=".9" y2="1"><stop offset="0" stop-color="#7a5694"/><stop offset="0.38" stop-color="#4a2d62"/><stop offset="0.75" stop-color="#2a1639"/><stop offset="1" stop-color="#120820"/></linearGradient>
+    <linearGradient id="rareFrame" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e4d2f2"/><stop offset="0.04" stop-color="#a688c4"/><stop offset="0.12" stop-color="#5d3f78"/><stop offset="0.5" stop-color="#3c2552"/><stop offset="0.88" stop-color="#68468a"/><stop offset="0.96" stop-color="#c8add9"/><stop offset="1" stop-color="#7b5a96"/></linearGradient>
+    <linearGradient id="rareFrameV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".25"/><stop offset=".15" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></linearGradient>
+    <linearGradient id="rareIsl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a3a74"/><stop offset="1" stop-color="#1c0e29"/></linearGradient>
+    <linearGradient id="rareIslEdge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".5" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#000" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="rareBez" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f6"/><stop offset=".35" stop-color="#7a7a82"/><stop offset=".6" stop-color="#2c2c32"/><stop offset="1" stop-color="#a9a9b2"/></linearGradient>
+    <linearGradient id="rareBezIn" x1="1" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#d6d6dc"/><stop offset=".5" stop-color="#2a2a30"/><stop offset="1" stop-color="#8d8d96"/></linearGradient>
+    <radialGradient id="rareGlass" cx=".38" cy=".32" r=".85"><stop offset="0" stop-color="#5a6bb8"/><stop offset=".35" stop-color="#1b1f4a"/><stop offset=".75" stop-color="#07081a"/><stop offset="1" stop-color="#020208"/></radialGradient>
+    <radialGradient id="rareCore" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#6d4bd0"/><stop offset=".5" stop-color="#14103a"/><stop offset="1" stop-color="#000"/></radialGradient>
+    <linearGradient id="rareIrid" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5fd2"/><stop offset=".5" stop-color="#6fa8ff"/><stop offset="1" stop-color="#5fffc8"/></linearGradient>
+    <linearGradient id="rareSheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".22" stop-color="#fff" stop-opacity="0.22"/><stop offset=".34" stop-color="#fff" stop-opacity="0"/><stop offset=".62" stop-color="#fff" stop-opacity="0.06"/><stop offset=".72" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="rareVig" cx=".5" cy=".4" r=".8"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></radialGradient>
+    <filter id="rareBlur"><feGaussianBlur stdDeviation="1.6"/></filter>
+    <filter id="rareNoise" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .55 0"/></filter>
+    <clipPath id="rareClip"><rect x="25.5" y="13.5" width="169" height="373" rx="31"/></clipPath>
+    <filter id="rareDrop" x="-30%" y="-10%" width="160%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity=".4"/></filter>
+  </defs>
+  <g filter="url(#rareDrop)">
+  <rect x="17.5" y="92" width="5" height="26" rx="2" fill="#8a68a8"/><rect x="17.5" y="92" width="1.5" height="26" rx=".7" fill="#fff" opacity=".4"/>
+  <rect x="17.5" y="132" width="5" height="44" rx="2" fill="#8a68a8"/><rect x="17.5" y="132" width="1.5" height="44" rx=".7" fill="#fff" opacity=".4"/>
+  <rect x="197.5" y="118" width="5" height="60" rx="2" fill="#8a68a8"/><rect x="201" y="118" width="1.5" height="60" rx=".7" fill="#000" opacity=".3"/>
+  <rect x="22" y="10" width="176" height="380" rx="35" fill="url(#rareFrame)"/>
+  <rect x="22" y="10" width="176" height="380" rx="35" fill="url(#rareFrameV)"/>
+  <rect x="22.6" y="10.6" width="174.8" height="378.8" rx="34.4" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width=".8"/>
+  <rect x="22" y="78" width="4" height="2" fill="#000" opacity=".4"/><rect x="194" y="78" width="4" height="2" fill="#000" opacity=".4"/><rect x="22" y="326" width="4" height="2" fill="#000" opacity=".4"/><rect x="194" y="326" width="4" height="2" fill="#000" opacity=".4"/>
+  <rect x="25.5" y="13.5" width="169" height="373" rx="31" fill="url(#rareBody)"/>
+  <g clip-path="url(#rareClip)">
+    <rect x="25" y="13" width="170" height="374" filter="url(#rareNoise)" opacity="0.30"/>
+    <rect x="25" y="13" width="170" height="374" fill="url(#rareVig)"/>
+    <path d="M25 13 H195 V387 H25 Z" fill="url(#rareSheen)"/>
+    <path d="M175 13 L195 13 L195 120 Z" fill="#fff" opacity=".05"/>
+  </g>
+  <rect x="25.5" y="13.5" width="169" height="373" rx="31" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+  <rect x="32" y="27" width="84" height="192" rx="29" fill="#000" opacity=".35" filter="url(#rareBlur)"/>
+  <rect x="33" y="24" width="82" height="190" rx="28" fill="url(#rareIsl)"/>
+  <rect x="33" y="24" width="82" height="190" rx="28" fill="none" stroke="url(#rareIslEdge)" stroke-width="1.4"/>
+  <rect x="36" y="27" width="76" height="184" rx="25" fill="none" stroke="#000" stroke-opacity=".25" stroke-width=".8"/>
+  
+  <g>
+    <circle cx="74" cy="62" r="27" fill="#000" opacity=".45" filter="url(#rareBlur)"/>
+    <circle cx="74" cy="60" r="25.2" fill="url(#rareBez)"/>
+    <circle cx="74" cy="60" r="23.4" fill="url(#rareBezIn)"/>
+    <circle cx="74" cy="60" r="21.4" fill="#040406"/>
+    <circle cx="74" cy="60" r="18.5" fill="url(#rareGlass)"/>
+    <circle cx="74" cy="60" r="14.5" fill="none" stroke="#9fb4ff" stroke-opacity=".22" stroke-width=".8"/>
+    <circle cx="74" cy="60" r="11.0" fill="#02020a" stroke="#c7a6ff" stroke-opacity=".25" stroke-width=".7"/>
+    <circle cx="74" cy="60" r="6.6" fill="url(#rareCore)"/>
+    <path d="M60.4 66.6 A15.4 15.4 0 0 0 83.9 72.3" stroke="url(#rareIrid)" stroke-width="3.5" fill="none" opacity=".55" stroke-linecap="round"/>
+    <ellipse cx="66.5" cy="51.2" rx="5.7" ry="2.6" fill="#fff" opacity=".85" transform="rotate(-38 66.5 51.2)"/>
+    <circle cx="82.4" cy="67.9" r="1.8" fill="#fff" opacity=".5"/>
+    <circle cx="74" cy="60" r="25.2" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width=".6"/>
+  </g>
+  <g>
+    <circle cx="74" cy="118" r="27" fill="#000" opacity=".45" filter="url(#rareBlur)"/>
+    <circle cx="74" cy="116" r="25.2" fill="url(#rareBez)"/>
+    <circle cx="74" cy="116" r="23.4" fill="url(#rareBezIn)"/>
+    <circle cx="74" cy="116" r="21.4" fill="#040406"/>
+    <circle cx="74" cy="116" r="18.5" fill="url(#rareGlass)"/>
+    <circle cx="74" cy="116" r="14.5" fill="none" stroke="#9fb4ff" stroke-opacity=".22" stroke-width=".8"/>
+    <circle cx="74" cy="116" r="11.0" fill="#02020a" stroke="#c7a6ff" stroke-opacity=".25" stroke-width=".7"/>
+    <circle cx="74" cy="116" r="6.6" fill="url(#rareCore)"/>
+    <path d="M60.4 122.6 A15.4 15.4 0 0 0 83.9 128.3" stroke="url(#rareIrid)" stroke-width="3.5" fill="none" opacity=".55" stroke-linecap="round"/>
+    <ellipse cx="66.5" cy="107.2" rx="5.7" ry="2.6" fill="#fff" opacity=".85" transform="rotate(-38 66.5 107.2)"/>
+    <circle cx="82.4" cy="123.9" r="1.8" fill="#fff" opacity=".5"/>
+    <circle cx="74" cy="116" r="25.2" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width=".6"/>
+  </g>
+  <g>
+    <circle cx="74" cy="180" r="32" fill="#000" opacity=".45" filter="url(#rareBlur)"/>
+    <circle cx="74" cy="178" r="30.2" fill="url(#rareBez)"/>
+    <circle cx="74" cy="178" r="28.4" fill="url(#rareBezIn)"/>
+    <circle cx="74" cy="178" r="26.4" fill="#040406"/>
+    <circle cx="74" cy="178" r="22.7" fill="url(#rareGlass)"/>
+    <circle cx="74" cy="178" r="17.8" fill="none" stroke="#9fb4ff" stroke-opacity=".22" stroke-width=".8"/>
+    <circle cx="74" cy="178" r="13.5" fill="#02020a" stroke="#c7a6ff" stroke-opacity=".25" stroke-width=".7"/>
+    <circle cx="74" cy="178" r="8.1" fill="url(#rareCore)"/>
+    <path d="M57.3 186.1 A18.9 18.9 0 0 0 86.2 193.1" stroke="url(#rareIrid)" stroke-width="4.3" fill="none" opacity=".55" stroke-linecap="round"/>
+    <ellipse cx="64.8" cy="167.2" rx="7.0" ry="3.2" fill="#fff" opacity=".85" transform="rotate(-38 64.8 167.2)"/>
+    <circle cx="84.3" cy="187.7" r="2.2" fill="#fff" opacity=".5"/>
+    <circle cx="74" cy="178" r="30.2" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width=".6"/>
+  </g><circle cx="138" cy="44" r="8.7" fill="url(#rareBez)"/><circle cx="138" cy="44" r="6.5" fill="#efe6c8"/><circle cx="136.6" cy="43.2" r="1.9" fill="#fff"/><circle cx="139.8" cy="45.2" r="1.6" fill="#d9b86a"/><circle cx="138" cy="84" r="3.2" fill="#0b0610"/><circle cx="138" cy="102" r="2.2" fill="#0b0610" opacity=".8"/>
+  <text x="110" y="338" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-weight="600" fill="#d9c4ea" opacity=".9">Ozévo</text>
+  <text x="110" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="3.6" letter-spacing=".8" fill="#d9c4ea" opacity=".5">DESIGNED IN INDIA  ·  A DIFFERENT FREQUENCY</text>
+  </g>
+</svg>
